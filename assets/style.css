@@ -1,0 +1,32 @@
+* {
+    font-family: 'Righteous', cursive;
+    color: rgb(15, 123, 195);
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(7, 69, 69);
+    
+}
+
+#bar {
+    display: flex;
+    justify-content: space-around;  
+    list-style-type: none;
+    width: 20%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#back {
+    display: flex;
+    color: rgb(20, 187, 187);
+    justify-content: center;
+    text-align: center;
+    width: 4%;
+    align-items: center;
+    font-size: 30px
+    
+}
