@@ -30,3 +30,9 @@ a {
   align-items: center;
   font-size: 30px;
 }
+
+/* @media screen and (width: 480px) {
+  body {
+    background-color: red;
+  }
+} */
