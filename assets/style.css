@@ -49,6 +49,10 @@ a {
   padding-bottom: 200px;
 }
 
+#about-me:hover{
+  background-color: aqua;
+}
+
 .container {
   display: flex;
   text-align: center;
