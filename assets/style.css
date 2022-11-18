@@ -68,6 +68,7 @@ a {
 
 #reports {
   display: flex;
+  justify-content: center;
   background-color: red;
   height: 600px;
   width: 90%;
