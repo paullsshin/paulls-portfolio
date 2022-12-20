@@ -1,14 +1,13 @@
-# Creating A Portfolio! (For the True Beginner) 💼
+# ***Welcome to My Portfolio***
 
-[Working link](https://paullsshin.github.io/paulls-portfolio/)
+[Deployed Page](https://github.com/paullsshin/weather-wizard)
 
-## __Description__ 📚
+<!-- deployed application -->
+## **Description** 📚
 
-_Creating a Portfolio_ is my take on creating a portfolio for myself! It is in the beginning process so keep in mind as I grow and learn more I will be able to add more functions, styling, and much more (hopefully)!
+*Paullio's Portfolio* is my portfolio and I will continue to add content on to it whenever possible
+## **Table of Contents** 📄
 
-<hr>
-
-## __Table of Contents__ 📄
 * Installation
 * Usage
 * License
@@ -17,24 +16,25 @@ _Creating a Portfolio_ is my take on creating a portfolio for myself! It is in t
 * Technology
 * Questions
 
+---
+
+## **Installation** ⚙️
+
+Visit my [repository](https://github.com/paullsshin/Paullios-Portfolio) to reference: any materials, the process in developing the web page, and the people involved in creating the web page.
 <hr>
 
-## __Installation__ ⚙️
-Visit my [repository](https://github.com/paullsshin/paulls-portfolio) to reference any materials and the process in which the page was developed.
-<hr>
+### **Usage** 💻
+* Users can browse the portfolio with various links and items for the user to look at
 
-## __Usage__ 💻
-
-* At the moment there is only one working link which takes the user to my Linkedin Profile!
-
-![](./assets/images/Screenshot%202022-12-06%2020.15.15.png)
-
-<p align="center">
-<img src ="./assets/imgages/Screenshot%2022-12-06%20.15.15" width="70%">
+<img src ="./assets/IMG/Screenshot 2022-12-19 17.16.03.png" width="50%">
+<img src ="./assets/IMG/Screenshot 2022-12-19 17.23.13.png" width="50%">
+<img src ="./assets/IMG/Screenshot 2022-12-19 17.23.44.png" width="50%">
 </p>
+
 <hr>
 
-## __License__ 💳
+### **License** 💳
+
 MIT License
 
 Copyright © 2022
@@ -44,24 +44,16 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
 <hr>
 
-## __Testing__ 📝
-All testing was done by myself.
-
+### **Testing** 📝
+All testing was done by the developing team.
 <hr>
 
-## __Technology__ 💡
-* HTML
-* CSS
+### **Technology** 💡
 * Hopes and Dreams
-
 <hr>
 
-## __Contact__ ☎
-
-Paull Shin - [Github](https://github.com/paullsshin), [Linkedin](https://www.linkedin.com/in/paull-shin-b3b0b410b/)
-
-
-
+### **Contact** 📱
+* Paull Shin **-** [Github](https://github.com/paullsshin)**,** [LinkedIn](https://www.linkedin.com/in/paull-shin-b3b0b410b/)
+***

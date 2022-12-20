@@ -1,78 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Fascinate&family=Fjalla+One&family=Kdam+Thmor+Pro&family=Noto+Sans+KR:wght@900&family=Righteous&family=Titan+One&display=swap"
-      rel="stylesheet"
-    />
-    <title>Paull's Portfolio</title>
-  </head>
-  <body>
-    <nav class="nav">
-      <div class="my-pic">
-      <img id="corner" src="./assets/images/IMG_9624.JPG" alt="placeholder"></img>
-    </div>
-    <div class="my-link">
-      <a href="https://www.linkedin.com/" class="social" target="_blank">
-        <img src="./assets/images/Link.png" id="linked" alt="Insta">
-      </a>
-    </div>
-      <ul id="bar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#projets">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>My Portfolio</title>
+</head>
+<body>
+  <section class="hero">
+    <nav>
+      <img src="./assets/IMG/Portfolio logo.jpg" alt="Port Logo" class="logo">
+      <ul class="nav-bar">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#sub-section2">Projects</a></li>
+        <li><a href="#sub-section3">Contact</a></li>
         <li><a href="#Resume">Resume</a></li>
       </ul>
     </nav>
-
-    <section class="spacer">
-      <h2>Cool Subtitle Here!</h2>
-    </section>
-
-    <article id="about-me">
-      <h2>Hello! My name is Paull Shin! Welcome to my Portfolio.</h2>
-      <p> It is currently a work in progress so please be aware of the clutter and whatnot!</p>
-    </article>
-
-    <div class="container">
-      <section id="reports">
-        <img id="report-img"src="./assets/images/OIP.jpg" alt="working">
-        <h3>Reports</h3>
-      </section>
-      <div id="middle">
-        <section id="projects">
-        <h3>Projects</h3>
-        </section>
-        <section id="info">
-        <h3>Information</h3>
-       </section>
-        <section id="best">
-        <h3>Best work</h3>
-        </section>
-        <section id="Contact">
-          <h3>Contact</h3>
-        </section>
-
+    <div class="hero-area">
+      <a href="#about-me">
+        <div class="scroll-down"></div>
+      </a>
+      <div class="hero-text">
+        <h1>Paull Shin</h1>
+        <p>Learning Developer</p>
+        <a href="#sub-section">
+          <div class="button">About Me</div>
+        </a>
+       
       </div>
-      <div class="work-in-progress">
-      <div class="project-container">
-        <img id="middle-img" src="./assets/images/creative-design-come-back-later-message-come-back-later-message-118578152.jpg" alt="place">
-        <h3 id="project-text">Working on Find a Project to Place</h3>
-      </div>
-      <div class="project-container">
-        <img id="middle-img" src="./assets/images/creative-design-come-back-later-message-come-back-later-message-118578152.jpg" alt="place">
-        <h3 id="project-text">Working on Find a Project to Place</h3>
-      </div>
-      <div class="project-container">
-        <img id="middle-img" src="./assets/images/creative-design-come-back-later-message-come-back-later-message-118578152.jpg" alt="place">
-        <h3 id="project-text">Working on Find a Project to Place</h3>
+      <div class="socials">
+        <a href="https://www.instagram.com/" class="social" target="_blank">
+          <img src="./assets/IMG/Insta.png" width= "40" height="40" alt="Insta" >
+        </a>
+        <a href="https://www.linkedin.com/" class="social" target="_blank">
+          <img src="./assets/IMG/Link.png" width= "40" height="40" alt="Insta">
+        </a>
+        <a href="https://www.github.com/" class="social" target="_blank">
+          <img src="./assets/IMG/GitHub.png" width= "40" height="40" alt="Insta">
+        </a>
       </div>
     </div>
-  </body>
+  </section>
+  
+  <section id="sub-section">
+    <div id="about-me">
+      <img class="selfie" src="./assets/IMG/40.jpg" alt="temp-pic">
+      <h2>A Little About Me</h2>
+      <p>Hello there! My name is Paull Shin and I am currently working on becoming a developer!</p>
+    </div>
+  </section>
+
+  <section class="sub-section2" id="sub-section2">
+    <h2>Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <img src="./assets/IMG/News Paper.jpg" alt="First-Image" class="project-image">
+        <h3>Project One</h3>
+        <p class="subtext">This is my first group project</p>
+        <hr/>
+        <p class="subtext"><a class="project-links" href="https://paullsshin.github.io/Paper-Boy/" target="_blank">Paper Boy News Service</a></p>
+      </div>
+      <div class="project-card"> <img src="./assets/IMG/Temp.jpg" alt="Second-Image" class="project-image">
+        <h3>Project Two</h3>
+        <p class="subtext">This is my second project</p>
+        <hr/>
+        <p class="subtext"><a class="project-links" href="https://paullsshin.github.io/Paper-Boy/" target="_blank">Place Holder</a></p>
+      </div>
+      <div class="project-card"> <img src="../assets/IMG/Temp.jpg" alt="Third-Image" class="project-image">
+        <h3>Project Three</h3>
+        <p class="subtext">This is my third project</p>
+        <hr/>
+        <p class="subtext"><a class="project-links" href="https://github.com/" target="_blank">Place Holder</a></p>
+      </div>
+      <div class="project-card"> <img src="./assets/IMG/Temp.jpg" alt="Fourth-Image" class="project-image">
+        <h3>Project Four</h3>
+        <p class="subtext">This is my fourth project</p>
+        <hr/>
+        <p class="subtext"><a class="project-links" href="https://github.com/" target="_blank">Place Holder</a></p>
+      </div>
+    </div>
+  </section>
+  <section class="sub-section3" id= "sub-section3">
+    <h4>Contact Me!</h4>
+    <ul class="contact-me">
+      <li>Phone</li>
+      <li>Email</li>
+    </ul>
+  </section>
+  <footer></footer>
+  
+</body>
 </html>
